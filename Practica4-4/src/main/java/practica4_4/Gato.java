@@ -16,8 +16,17 @@ package practica4_4;
  */
 public class Gato implements Mamifero {
 
+ /**
+   * @param nombre Nombre del gato
+   */
   String nombre;
+ /**
+   * @param peso Peso del gato
+   */
   int peso = 2;
+  /**
+   * @param muerto Estado del gato
+   */
   private boolean muerto = false;
 
   /**
